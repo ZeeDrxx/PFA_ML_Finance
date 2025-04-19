@@ -1,0 +1,108 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Système -->
+  <rect x="250" y="50" width="500" height="570" rx="15" ry="15" fill="none" stroke="#000" stroke-width="2" />
+  <text x="500" y="85" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">Système de Détection de Fraudes Financières</text>
+  
+  <!-- Acteurs -->
+  <!-- Institution Financière -->
+  <circle cx="100" cy="150" r="25" fill="none" stroke="#000" stroke-width="2" />
+  <line x1="100" y1="175" x2="100" y2="230" stroke="#000" stroke-width="2" />
+  <line x1="100" y1="190" x2="65" y2="220" stroke="#000" stroke-width="2" />
+  <line x1="100" y1="190" x2="135" y2="220" stroke="#000" stroke-width="2" />
+  <text x="100" y="265" text-anchor="middle" font-family="Arial" font-size="16">Institution Financière</text>
+  
+  <!-- Analyste de Fraude -->
+  <circle cx="100" cy="400" r="25" fill="none" stroke="#000" stroke-width="2" />
+  <line x1="100" y1="425" x2="100" y2="480" stroke="#000" stroke-width="2" />
+  <line x1="100" y1="440" x2="65" y2="470" stroke="#000" stroke-width="2" />
+  <line x1="100" y1="440" x2="135" y2="470" stroke="#000" stroke-width="2" />
+  <text x="100" y="515" text-anchor="middle" font-family="Arial" font-size="16">Analyste de Fraude</text>
+  
+  <!-- Équipe Technique -->
+  <circle cx="900" cy="275" r="25" fill="none" stroke="#000" stroke-width="2" />
+  <line x1="900" y1="300" x2="900" y2="355" stroke="#000" stroke-width="2" />
+  <line x1="900" y1="315" x2="865" y2="345" stroke="#000" stroke-width="2" />
+  <line x1="900" y1="315" x2="935" y2="345" stroke="#000" stroke-width="2" />
+  <text x="900" y="390" text-anchor="middle" font-family="Arial" font-size="16">Équipe Technique</text>
+  
+  <!-- Cas d'utilisation -->
+  <!-- Institution Financière -->
+  <ellipse cx="400" cy="130" rx="120" ry="35" fill="white" stroke="#000" stroke-width="2" />
+  <text x="400" y="135" text-anchor="middle" font-family="Arial" font-size="14">Intégrer système via API</text>
+  
+  <ellipse cx="400" cy="220" rx="120" ry="35" fill="white" stroke="#000" stroke-width="2" />
+  <text x="400" y="225" text-anchor="middle" font-family="Arial" font-size="14">Soumettre transactions</text>
+  
+  <!-- Analyste de Fraude -->
+  <ellipse cx="400" cy="310" rx="120" ry="35" fill="white" stroke="#000" stroke-width="2" />
+  <text x="400" y="315" text-anchor="middle" font-family="Arial" font-size="14">Consulter le dashboard</text>
+  
+  <ellipse cx="400" cy="400" rx="120" ry="35" fill="white" stroke="#000" stroke-width="2" />
+  <text x="400" y="405" text-anchor="middle" font-family="Arial" font-size="14">Analyser alertes</text>
+  
+  <ellipse cx="400" cy="490" rx="120" ry="35" fill="white" stroke="#000" stroke-width="2" />
+  <text x="400" y="495" text-anchor="middle" font-family="Arial" font-size="14">Fournir feedback</text>
+  
+  <ellipse cx="400" cy="580" rx="120" ry="35" fill="white" stroke="#000" stroke-width="2" />
+  <text x="400" y="585" text-anchor="middle" font-family="Arial" font-size="14">Simuler scénarios fraude</text>
+  
+  <!-- Équipe Technique -->
+  <ellipse cx="650" cy="130" rx="120" ry="35" fill="white" stroke="#000" stroke-width="2" />
+  <text x="650" y="135" text-anchor="middle" font-family="Arial" font-size="14">Configurer le système</text>
+  
+  <ellipse cx="650" cy="220" rx="120" ry="35" fill="white" stroke="#000" stroke-width="2" />
+  <text x="650" y="225" text-anchor="middle" font-family="Arial" font-size="14">Monitorer performances</text>
+  
+  <ellipse cx="650" cy="310" rx="120" ry="35" fill="white" stroke="#000" stroke-width="2" />
+  <text x="650" y="315" text-anchor="middle" font-family="Arial" font-size="14">Gérer utilisateurs</text>
+  
+  <ellipse cx="650" cy="400" rx="120" ry="35" fill="white" stroke="#000" stroke-width="2" />
+  <text x="650" y="405" text-anchor="middle" font-family="Arial" font-size="14">Utiliser mode Sandbox</text>
+  
+  <ellipse cx="650" cy="490" rx="120" ry="35" fill="white" stroke="#000" stroke-width="2" />
+  <text x="650" y="495" text-anchor="middle" font-family="Arial" font-size="14">Gérer modèles ML</text>
+  
+  <!-- Relations acteurs-cas d'utilisation -->
+  <!-- Institution Financière -->
+  <line x1="130" y1="150" x2="280" y2="130" stroke="#000" stroke-width="1.5" />
+  <line x1="130" y1="150" x2="280" y2="220" stroke="#000" stroke-width="1.5" />
+  
+  <!-- Analyste de Fraude -->
+  <line x1="130" y1="400" x2="280" y2="310" stroke="#000" stroke-width="1.5" />
+  <line x1="130" y1="400" x2="280" y2="400" stroke="#000" stroke-width="1.5" />
+  <line x1="130" y1="400" x2="280" y2="490" stroke="#000" stroke-width="1.5" />
+  <line x1="130" y1="400" x2="280" y2="580" stroke="#000" stroke-width="1.5" />
+  
+  <!-- Équipe Technique -->
+  <line x1="870" y1="275" x2="770" y2="130" stroke="#000" stroke-width="1.5" />
+  <line x1="870" y1="275" x2="770" y2="220" stroke="#000" stroke-width="1.5" />
+  <line x1="870" y1="275" x2="770" y2="310" stroke="#000" stroke-width="1.5" />
+  <line x1="870" y1="275" x2="770" y2="400" stroke="#000" stroke-width="1.5" />
+  <line x1="870" y1="275" x2="770" y2="490" stroke="#000" stroke-width="1.5" />
+  
+  <!-- Relations incluses -->
+  <line x1="470" y1="335" x2="530" y2="375" stroke="#000" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="535" y="350" font-family="Arial" font-size="12" font-style="italic"><<include>></text>
+  <polygon points="530,375 520,365 535,363" fill="#000" />
+  
+  <line x1="460" y1="525" x2="530" y2="465" stroke="#000" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="540" y="510" font-family="Arial" font-size="12" font-style="italic"><<extend>></text>
+  <polygon points="530,465 538,476 523,477" fill="#000" />
+  
+  <!-- Relations entre cas d'utilisation -->
+  <line x1="520" y1="400" x2="530" y2="400" stroke="#000" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="550" y="390" font-family="Arial" font-size="12" font-style="italic"><<include>></text>
+  <polygon points="530,400 520,396 520,404" fill="#000" />
+  
+  <!-- Légende -->
+  <rect x="750" y="550" width="200" height="120" fill="white" stroke="#000" stroke-width="1" />
+  <text x="850" y="570" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Légende</text>
+  <line x1="760" y1="585" x2="800" y2="585" stroke="#000" stroke-width="1.5" />
+  <text x="810" y="590" font-family="Arial" font-size="12" text-anchor="start">Association</text>
+  <line x1="760" y1="610" x2="800" y2="610" stroke="#000" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="810" y="615" font-family="Arial" font-size="12" text-anchor="start">Include/Extend</text>
+  <ellipse cx="780" y="635" rx="20" ry="12" fill="white" stroke="#000" stroke-width="1" />
+  <text x="810" y="640" font-family="Arial" font-size="12" text-anchor="start">Cas d'utilisation</text>
+  <circle cx="780" cy="660" r="10" fill="none" stroke="#000" stroke-width="1" />
+  <text x="810" y="665" font-family="Arial" font-size="12" text-anchor="start">Acteur</text>
+</svg>
