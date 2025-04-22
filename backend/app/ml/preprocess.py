@@ -45,3 +45,37 @@ def preprocess_dataset(csv_path: str):
     print(f"✅ Prétraitement terminé : {X.shape[1]} features prêtes")
 
     return X, y
+
+def preprocess_single(tx: dict) -> pd.DataFrame:
+    """
+    Prépare une transaction pour prédiction.
+    """
+    df = pd.DataFrame([tx])
+
+    df = pd.get_dummies(df, columns=["transaction_type", "transaction_channel"], drop_first=True)
+
+    # Liste exacte des colonnes que le modèle attend
+    expected_cols = [
+        'amount',
+        'account_age_days',
+        'num_transactions_last_24h',
+        'avg_transaction_amount_last_7d',
+        'is_weekend',
+        'device_change_flag',
+        'transaction_type_payment',
+        'transaction_type_transfer',
+        'transaction_type_withdrawal',
+        'transaction_channel_POS',
+        'transaction_channel_mobile',
+        'transaction_channel_web'
+    ]
+
+    # Ajout des colonnes manquantes avec 0
+    for col in expected_cols:
+        if col not in df.columns:
+            df[col] = 0
+
+    # Supprimer les colonnes en trop
+    df = df[[col for col in expected_cols]]
+
+    return df
